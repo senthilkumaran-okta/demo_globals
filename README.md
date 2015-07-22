@@ -28,7 +28,7 @@ accessible:
 3. the next-to-last scope contains the current module’s global names
   * Variables that are defined in the module at the level.
   
-4.the outermost scope (searched last) is the namespace containing built-in names, 
+4.the outermost scope (searched last) is the namespace containing built-in names.
   * Things like len(), abs() etc.
 
 
