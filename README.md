@@ -20,11 +20,14 @@ accessible:
 
 1. the innermost scope, which is searched first, contains the local names.
   * Like any variable you define inside the function.
+
 2. the scopes of any enclosing functions, which are searched starting with the nearest enclosing scope
   * If you define a function within a function, the inner function will get access the nearest outer
   function defined variable.
+
 3. the next-to-last scope contains the current module’s global names
   * Variables that are defined in the module at the level.
+  
 4.the outermost scope (searched last) is the namespace containing built-in names, 
   * Things like len(), abs() etc.
 
