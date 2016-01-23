@@ -9,7 +9,7 @@ def function1():
     print MAIN_GLOBAL
   except UnboundLocalError as e:
     # If you define a local variable by the same name in the module's function scope
-    # (i.e in the line number 14 below), you wont be able to access the global as the
+    # (i.e in the line number 16 below), you wont be able to access the global as the
     # local scope over-shadows it.
     print "Caught Exception:", e
 
